@@ -1,0 +1,7 @@
+{
+    "routes": [
+      { "id": 1, "origin": "CBD", "destination": "Kikuyu", "fare": 100 },
+      { "id": 2, "origin": "CBD", "destination": "Rongai", "fare": 150 }
+    ]
+  }
+  
