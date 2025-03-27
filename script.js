@@ -9,3 +9,12 @@ fetch('http://localhost:3000/routes')
       container.appendChild(div);
     });
   });
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', (e) => {
+      const searchTerm = e.target.value.toLowerCase();
+      document.querySelectorAll('.route-card').forEach(card => {
+          const text = card.innerText.toLowerCase();
+          card.style.display = text.includes(searchTerm) ? '' : 'none';
+      });
+  });
+  
