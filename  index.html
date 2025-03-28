@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matatu Route Planner</title>
+    <title>Matatu Route Planner - Nairobi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Matatu Route Planner</h1>
-    <input type="text" id="search" placeholder="Search for a route...">
-    <div id="routes-container"></div>
+    <div class="container">
+        <h1>Matatu Route Planner - Nairobi</h1>
+        <input type="text" id="searchBar" placeholder="Search for a route...">
+        <ul id="routesList" class="routes"></ul>
+
+        <div id="saccoDetails" class="sacco-details hidden">
+            <h2>Matatu Saccos</h2>
+            <ul id="saccoList"></ul>
+            <button id="backButton">Back to Routes</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
