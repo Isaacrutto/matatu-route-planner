@@ -1,7 +1,52 @@
 {
     "routes": [
-      { "id": 1, "origin": "CBD", "destination": "Kikuyu", "fare": 100 },
-      { "id": 2, "origin": "CBD", "destination": "Rongai", "fare": 150 }
+        {
+            "name": "CBD to Westlands",
+            "stageLocation": { "lat": -1.2674, "lng": 36.8101 },
+            "saccos": [
+                { "name": "City Hoppa", "fare": 100 },
+                { "name": "Super Metro", "fare": 80 }
+            ]
+        },
+        {
+            "name": "CBD to Rongai",
+            "stageLocation": { "lat": -1.3920, "lng": 36.7424 },
+            "saccos": [
+                { "name": "Ongata Line", "fare": 150 },
+                { "name": "City Shuttle", "fare": 140 }
+            ]
+        },
+        {
+            "name": "CBD to Thika",
+            "stageLocation": { "lat": -1.0396, "lng": 37.0853 },
+            "saccos": [
+                { "name": "Kenya Mpya", "fare": 200 },
+                { "name": "Chania", "fare": 180 }
+            ]
+        },
+        {
+            "name": "CBD to Umoja",
+            "stageLocation": { "lat": -1.2804, "lng": 36.8895 },
+            "saccos": [
+                { "name": "Forward Travellers", "fare": 70 },
+                { "name": "Citi Hoppa", "fare": 80 }
+            ]
+        },
+        {
+            "name": "CBD to Buruburu",
+            "stageLocation": { "lat": -1.2888, "lng": 36.8870 },
+            "saccos": [
+                { "name": "Double M", "fare": 70 },
+                { "name": "City Shuttle", "fare": 80 }
+            ]
+        },
+        {
+            "name": "CBD to Kitengela",
+            "stageLocation": { "lat": -1.4577, "lng": 36.9582 },
+            "saccos": [
+                { "name": "Rembo Shuttle", "fare": 150 },
+                { "name": "Kitengela Shuttle", "fare": 140 }
+            ]
+        }
     ]
-  }
-  
+}
